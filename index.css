@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Roboto Mono;
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+#game {
+    position: absolute;
+    z-index: 0;
+}
+
+#title {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-top: 7px;
+}
+
+#nav {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+}
+
+#title h1, h3 {
+    position: relative;
+    width: 35%;
+    left: 10%;
+    overflow-wrap: break-word;
+    font-family: Roboto Mono;
+    text-align: right;
+}
+
+#title h1 {
+    font-size: 45px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#title h3 {
+    font-size: 20px;
+    color: lightgray;
+    margin-top: 10px;
+}
+
+#nav li a {
+    display: block;
+    position: relative;
+    width: 46%;
+    left: 54%;
+    margin: 10px 0;
+    font-family: Roboto Mono;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+}
+
+p {
+    position: absolute;
+    top: calc(100% - 32px);
+    left: 10px;
+    font-family: Roboto Mono;
+    font-size: 13px;
+    color: black; 
+}

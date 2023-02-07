@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Roboto Mono;
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+#title {
+    position: absolute;
+    top: 18%;
+    width: 25%;
+}
+
+#nav {
+    position: absolute;
+    top: 12%;
+    margin: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 3%;
+    margin-top: 0;
+    font-family: Roboto Mono;
+    font-size: 35pt;
+    color: white;
+}
+
+#nav li {
+    display: inline;
+    margin: 0 10pt;
+}
+
+#nav li a {
+    font-family: Roboto Mono;
+    font-size: 20pt;
+    text-align: center;
+    color: lightgray;
+}
