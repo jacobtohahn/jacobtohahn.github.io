@@ -56,9 +56,9 @@
     color: white;
 }
 
-p {
+a {
     position: absolute;
-    top: calc(100% - 32px);
+    top: calc(100% - 18px);
     left: 10px;
     font-family: Roboto Mono;
     font-size: 13px;
