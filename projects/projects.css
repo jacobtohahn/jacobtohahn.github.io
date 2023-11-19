@@ -36,7 +36,8 @@
 }
 
 .projImage {
-	width: 400pt;
+	max-width: 400pt;
+	max-height: 300pt;
 }
 
 .projDate {
